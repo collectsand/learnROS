@@ -1,0 +1,21 @@
+# ninja log v5
+36	164	1695700731729396949	devel/share/roseus/ros/beginner_tutorials/msg/smsg.l	1fc723f48b8e8585
+37	339	1695700731859396955	devel/lib/python3/dist-packages/beginner_tutorials/msg/_smsg.py	a64f8243bb97c2d2
+36	164	1695700731729396949	/home/qwe/catkin_ws/src/beginner_tutorials/build/devel/share/roseus/ros/beginner_tutorials/msg/smsg.l	1fc723f48b8e8585
+37	105	1695700731679396950	/home/qwe/catkin_ws/src/beginner_tutorials/build/devel/share/common-lisp/ros/beginner_tutorials/msg/smsg.lisp	4716039ba7dbc41e
+2	41	0	/home/qwe/catkin_ws/src/beginner_tutorials/build/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_smsg	566d27420a597937
+37	105	1695700731669396948	devel/share/gennodejs/ros/beginner_tutorials/msg/smsg.js	4ee6f62cf7e64408
+1898	2167	1695705268619644239	devel/lib/beginner_tutorials/talker	a7ede2a79e83643a
+36	533	1695700732099396963	devel/share/roseus/ros/beginner_tutorials/manifest.l	e833532e4d84b24a
+41	1898	1695705268339644301	CMakeFiles/talker.dir/src/talker.cpp.o	f9f930391c13aca1
+1943	2193	1695701858879381758	devel/lib/beginner_tutorials/listener	c63e2a12e74fe629
+36	198	1695700731779396951	/home/qwe/catkin_ws/src/beginner_tutorials/build/devel/include/beginner_tutorials/smsg.h	d5f7692a8b44c845
+37	105	1695700731679396950	devel/share/common-lisp/ros/beginner_tutorials/msg/smsg.lisp	4716039ba7dbc41e
+51	1943	1695701858619381781	CMakeFiles/listener.dir/src/listener.cpp.o	b9abf040e4655a49
+36	198	1695700731779396951	devel/include/beginner_tutorials/smsg.h	d5f7692a8b44c845
+37	105	1695700731669396948	/home/qwe/catkin_ws/src/beginner_tutorials/build/devel/share/gennodejs/ros/beginner_tutorials/msg/smsg.js	4ee6f62cf7e64408
+36	533	1695700732099396963	/home/qwe/catkin_ws/src/beginner_tutorials/build/devel/share/roseus/ros/beginner_tutorials/manifest.l	e833532e4d84b24a
+37	339	1695700731859396955	/home/qwe/catkin_ws/src/beginner_tutorials/build/devel/lib/python3/dist-packages/beginner_tutorials/msg/_smsg.py	a64f8243bb97c2d2
+2	41	0	CMakeFiles/_beginner_tutorials_generate_messages_check_deps_smsg	566d27420a597937
+339	583	1695700732129396963	/home/qwe/catkin_ws/src/beginner_tutorials/build/devel/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py	3891ec8aa3b7f5a4
+339	583	1695700732129396963	devel/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py	3891ec8aa3b7f5a4
