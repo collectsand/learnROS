@@ -54,11 +54,10 @@ add_message_files(
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  AddTwoInts.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -133,14 +132,14 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/beginner_tutorials_node.cpp)
-add_executable(talker src/talker.cpp)
-target_link_libraries(talker ${catkin_LIBRARIES})
-add_dependencies(talker ${PROJECT_NAME}_generate_messages_cpp)
+add_executable(AddInts_Server src/AddInts_Server.cpp)
+target_link_libraries(AddInts_Server ${catkin_LIBRARIES})
+add_dependencies(AddInts_Server ${PROJECT_NAME}_gencpp)
 
 
-add_executable(listener src/listener.cpp)
-target_link_libraries(listener ${catkin_LIBRARIES})
-add_dependencies(listener ${PROJECT_NAME}_generate_messages_cpp)
+add_executable(AddInts_Client src/AddInts_Client.cpp)
+target_link_libraries(AddInts_Client ${catkin_LIBRARIES})
+add_dependencies(AddInts_Client ${PROJECT_NAME}_gencpp)
 
 
 ## Rename C++ executable without prefix
