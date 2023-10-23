@@ -15,9 +15,11 @@ int main(int argc, char **argv) {
       nh.serviceClient<beginner_tutorials::AddTwoInts>("add_two_ints");
 
   beginner_tutorials::AddTwoInts srv;
-  // 自定义参数
+  // 自定义参数，atoll将字符串转换成long int
   srv.request.a = atoll(argv[1]);
   srv.request.b = atoll(argv[2]);
+  // 等待服务器启动
+  client.waitForExistence();
 
   if (client.call(srv)) {
     ROS_INFO("Sum: %ld", (long int)srv.response.sum);
