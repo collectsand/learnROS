@@ -132,14 +132,12 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/beginner_tutorials_node.cpp)
-add_executable(AddInts_Server src/AddInts_Server.cpp)
-target_link_libraries(AddInts_Server ${catkin_LIBRARIES})
-add_dependencies(AddInts_Server ${PROJECT_NAME}_gencpp)
+add_executable(param_set src/param_set.cpp)
+target_link_libraries(param_set ${catkin_LIBRARIES})
 
 
-add_executable(AddInts_Client src/AddInts_Client.cpp)
-target_link_libraries(AddInts_Client ${catkin_LIBRARIES})
-add_dependencies(AddInts_Client ${PROJECT_NAME}_gencpp)
+add_executable(param_get src/param_get.cpp)
+target_link_libraries(param_get ${catkin_LIBRARIES})
 
 
 ## Rename C++ executable without prefix
